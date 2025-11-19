@@ -1,0 +1,3 @@
+SistemaBlog:
+- publicarArticulo()
+- dejarComentario()
