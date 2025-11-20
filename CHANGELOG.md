@@ -7,35 +7,26 @@ y este proyecto sigue las reglas de [Semantic Versioning](https://semver.org/lan
 
 ---
 
-## [1.1.0] - 2025-11-10
+## [1.1.0] - 2025-11-20 (Por liberar)
 
 ### Agregado
-- Sistema de categorías para artículos.
-- Relación muchos-a-muchos entre Artículo y Categoría.
-- Panel de administración para gestionar categorías.
-- Filtro de artículos por categoría en la vista pública.
-- Diagramas UML actualizados para la nueva funcionalidad.
+- Sistema completo de categorías para artículos
+- Cada categoría tiene: nombre, slug, descripción y color
+- Filtro de artículos por categoría en vista pública
+- Panel de administración de categorías para autores
+- Diagrama de clases para sistema de categorías
 
 ### Cambiado
-- Interfaz de creación de artículos mejorada.
-- Documentación actualizada para incluir categorías.
-
-### Corregido
-- Ajustes menores en validaciones de formularios.
-
----
+- Mejorada interfaz de creación de artículos
+- Actualizado README con nueva funcionalidad
 
 ## [1.0.0] - 2025-11-07
 
 ### Agregado
-- Identidad propia del proyecto (README, branding).
-- Diagrama de Casos de Uso y documentación inicial.
-- Diagramas UML: Clases, Secuencia y Actividad.
-- Base funcional:
-  - CRUD de artículos
-  - Sistema de comentarios
-  - Autenticación de autores
-- Arquitectura MVC implementada.
+- Fork inicial de proyecto-modelado-2025
+- Establecida identidad de MariaBlog
+- Documentación inicial en README
+- Sistema base: CRUD artículos + comentarios
 
 ---
 

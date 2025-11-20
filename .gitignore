@@ -1,77 +1,31 @@
-# ==========================
-# 🖥️ Archivos del sistema
-# ==========================
+# Archivos del sistema operativo
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# ==========================
-# 🛠️ Editores y entornos
-# ==========================
+# IDEs y editores
 .vscode/
 .idea/
 *.swp
-*~
 *.swo
+*~
 
-# ==========================
-# 🐍 Python (si lo usás)
-# ==========================
+# Dependencias (si usas Node.js, Python, etc.)
+node_modules/
+venv/
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-venv/
-env/
-.venv/
 
-# ==========================
-# 🟩 Node.js (si lo usás)
-# ==========================
-node_modules/
-npm-debug.log
-yarn-debug.log
-yarn-error.log
-
-# ==========================
-# 📦 Compilaciones y builds
-# ==========================
-dist/
-build/
-out/
-coverage/
-*.log
-
-# ==========================
-# 🔒 Configuración privada
-# ==========================
+# Archivos de configuración local
 .env
 .env.local
-.env.*.local
-*.secret
-*.key
-config.local.*
-config.dev.json
-config.test.json
+config.local.json
 
-# ==========================
-# 🗄️ Bases de datos locales
-# ==========================
+# Archivos de build
+dist/
+build/
+*.log
+
+# Bases de datos locales
 *.sqlite
-*.sqlite3
 *.db
-
-# ==========================
-# 🧪 Archivos temporales
-# ==========================
-*.tmp
-*.temp
-*.cache
-*.bak
-*.old
-
-# ==========================
-# 🖼️ Archivos generados
-# ==========================
-*.png-backup
-*.svg-backup
